@@ -1,0 +1,68 @@
+.title1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18.27px;
+  line-height: 28.42px;
+  color: rgba(248, 249, 250, 1);
+}
+
+.title2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16.24px;
+  line-height: 26.39px;
+  color: rgba(248, 249, 250, 1);
+}
+
+.title3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14.21px;
+  line-height: 24.36px;
+  color: rgba(248, 249, 250, 1);
+}
+
+.headline {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12.18px;
+  line-height: 22.33px;
+  color: rgba(var(--grey-1));
+}
+
+.headline-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(var(--grey-0));
+}
+
+.headline-textMessage {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(var(--color-primary));
+}
+
+.headline-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12.18px;
+  line-height: 18.27px;
+  color: rgba(134, 142, 150, 1);
+}
+
+.headline-italic {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.27px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.registration {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.1px;
+}
