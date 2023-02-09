@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Main = styled.div`
   width: 100%;
+  max-width: 2000px;
   height: 100%;
 `
 
@@ -20,6 +21,7 @@ export const Container = styled.div`
 export const ButtonExit = styled.button`
   display: flex;
   justify-content: center;
+  margin-top: 20px;
   width: 100px;
   height: 40px;
   align-items: center;
@@ -50,6 +52,8 @@ export const InfoCustomer = styled.div`
 `
 
 export const ContainerContacts = styled.div`
+  display: flex;
+  flex-direction: column;
   .infos {
     width: 100%;
     display: flex;
@@ -60,7 +64,7 @@ export const ContainerContacts = styled.div`
   .title2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     color: #090446;
   }
   .title3 {
@@ -91,11 +95,10 @@ export const ContainerContacts = styled.div`
   }
   .list-Contacts {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding: 12px;
     margin-top: 28px;
-    background-color: rgba(var(--grey-3), 1);
   }
   .contact {
     margin: 0 auto;
